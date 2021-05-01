@@ -191,7 +191,7 @@
 					<device>Smart-Robot</device>
 				</condition>
 				<action>
-					<action-type>Speak</action-type>
+					<action-type>Greet-User</action-type>
 				</action>
 			</case>
 			<case>
@@ -207,7 +207,7 @@
 					<device>Smart-Speaker</device>
 				</condition>
 				<action>
-					<action-type>Speak</action-type>
+					<action-type>Greet-User</action-type>
 				</action>
 			</case>
 			<case>
@@ -215,7 +215,7 @@
 					<device>Smart-Wheelchair</device>
 				</condition>
 				<action>
-					<action-type>Speak</action-type>
+					<action-type>Greet-User</action-type>
 				</action>
 			</case>
 		</rule>
