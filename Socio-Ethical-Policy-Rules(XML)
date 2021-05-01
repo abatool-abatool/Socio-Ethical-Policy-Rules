@@ -227,7 +227,7 @@
 					<device>Smart-Robot</device>
 				</condition>
 				<action>
-					<action-type>Speak</action-type>
+					<action-type>Keep-User-Informed-On-Each-Action</action-type>
 				</action>
 			</case>
 			<case>
