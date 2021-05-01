@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <socio-ethical-policy>
-	<authorisation-rules id="R2">
+	<authorisation-rules id="R1">
 		<rule>
 			<rule-name>Communicate-With-Users</rule-name>
 			<device-type>Actuators</device-type>
