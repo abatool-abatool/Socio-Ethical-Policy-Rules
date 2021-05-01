@@ -9,7 +9,7 @@
 					<device>Smart-Robot</device>
 				</condition>
 				<action>
-					<action-type>Speak</action-type>
+					<action-type>Dialogue-Communication-(Ask user if he/she is fine and how is his/her day going?)</action-type>
 				</action>
 			</case>
 			<case>
@@ -17,7 +17,7 @@
 					<device>Smart-Camera</device>
 				</condition>
 				<action>
-					<action-type>Stream</action-type>
+					<action-type>Live-Video-Streaming</action-type>
 				</action>
 			</case>
 			<case>
@@ -25,7 +25,7 @@
 					<device>Smart-Speaker</device>
 				</condition>
 				<action>
-					<action-type>Speak</action-type>
+					<action-type>Play-Songs-On-User-Demand</action-type>
 				</action>
 			</case>
 			<case>
@@ -33,7 +33,7 @@
 					<device>Smart-Wheelchair</device>
 				</condition>
 				<action>
-					<action-type>Speak</action-type>
+					<action-type>Dialogue-Communication-(Ask user if he/she is fine and how is his/her day going?)</action-type>
 				</action>
 			</case>
 		</rule>
@@ -45,7 +45,7 @@
 					<device>Smart-Robot</device>
 				</condition>
 				<action>
-					<action-type>Face-Detection</action-type>
+					<action-type>Face-Recognistion</action-type>
 				</action>
 			</case>
 			<case>
@@ -74,14 +74,14 @@
 			</case>
 		</rule>
 		<rule>
-			<rule-name>Navigate-Users</rule-name>
+			<rule-name>Guide-Users</rule-name>
 			<device-type>Actuators</device-type>
 			<case>
 				<condition>
 					<device>Smart-Robot</device>
 				</condition>
 				<action>
-					<action-type>Movement</action-type>
+					<action-type>Show-Location-To-User</action-type>
 				</action>
 			</case>
 			<case>
@@ -97,7 +97,7 @@
 					<device>Smart-Speaker</device>
 				</condition>
 				<action>
-					<action-type>Name-Directions</action-type>
+					<action-type>Name-The-Location-Directions</action-type>
 				</action>
 			</case>
 			<case>
@@ -105,19 +105,19 @@
 					<device>Smart-Wheelchair</device>
 				</condition>
 				<action>
-					<action-type>Movement</action-type>
+					<action-type>Take-User-To-Location</action-type>
 				</action>
 			</case>
 		</rule>
 		<rule>
-			<rule-name>Instruct-On-Covid-Safe</rule-name>
+			<rule-name>Safety-Measures</rule-name>
 			<device-type>Actuators</device-type>
 			<case>
 				<condition>
 					<device>Smart-Robot</device>
 				</condition>
 				<action>
-					<action-type>Provide-Sanitiser/Mask</action-type>
+					<action-type>Alert-On-Waste</action-type>
 				</action>
 			</case>
 			<case>
@@ -125,7 +125,7 @@
 					<device>Smart-Camera</device>
 				</condition>
 				<action>
-					<action-type>Display-Covid-Rules</action-type>
+					<action-type>Alert-On-Waste</action-type>
 				</action>
 			</case>
 			<case>
@@ -133,7 +133,7 @@
 					<device>Smart-Speaker</device>
 				</condition>
 				<action>
-					<action-type>Speak</action-type>
+					<action-type>Alert-On-Waste</action-type>
 				</action>
 			</case>
 			<case>
@@ -141,79 +141,7 @@
 					<device>Smart-Wheelchair</device>
 				</condition>
 				<action>
-					<action-type>Provide-Sanitiser/Mask</action-type>
-				</action>
-			</case>
-		</rule>
-		<rule>
-			<rule-name>Reminders</rule-name>
-			<device-type>Actuators</device-type>
-			<case>
-				<condition>
-					<device>Smart-Robot</device>
-				</condition>
-				<action>
-					<action-type>Speak</action-type>
-				</action>
-			</case>
-			<case>
-				<condition>
-					<device>Smart-Camera</device>
-				</condition>
-				<action>
-					<action-type>Display</action-type>
-				</action>
-			</case>
-			<case>
-				<condition>
-					<device>Smart-Speaker</device>
-				</condition>
-				<action>
-					<action-type>Speak</action-type>
-				</action>
-			</case>
-			<case>
-				<condition>
-					<device>Smart-Wheelchair</device>
-				</condition>
-				<action>
-					<action-type>Speak</action-type>
-				</action>
-			</case>
-		</rule>
-		<rule>
-			<rule-name>Alert-On-Weather-Condition</rule-name>
-			<device-type>Actuators</device-type>
-			<case>
-				<condition>
-					<device>Smart-Robot</device>
-				</condition>
-				<action>
-					<action-type>Speak</action-type>
-				</action>
-			</case>
-			<case>
-				<condition>
-					<device>Smart-Camera</device>
-				</condition>
-				<action>
-					<action-type>Display</action-type>
-				</action>
-			</case>
-			<case>
-				<condition>
-					<device>Smart-Speaker</device>
-				</condition>
-				<action>
-					<action-type>Speak</action-type>
-				</action>
-			</case>
-			<case>
-				<condition>
-					<device>Smart-Wheelchair</device>
-				</condition>
-				<action>
-					<action-type>Speak</action-type>
+					<action-type>Alert-On-Waste</action-type>
 				</action>
 			</case>
 		</rule>
@@ -505,7 +433,7 @@
 					<device>Smart-Wheelchair</device>
 				</condition>
 				<action>
-					<action-type>Hold-User-Firmyly</action-type>
+					<action-type>Do-Not-Go-Closer-To-Obstacles</action-type>
 				</action>
 			</case>
 		</rule>
@@ -546,7 +474,7 @@
 			</case>
 		</rule>
 		<rule>
-			<rule-name>Stay-With-Less-Power</rule-name>
+			<rule-name>Stay-With-Low-Power</rule-name>
 			<device-type>Actuators</device-type>
 			<case>
 				<condition>
