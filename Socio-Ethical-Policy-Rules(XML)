@@ -9,8 +9,10 @@
 					<device>Smart-Robot</device>
 				</condition>
 				<action-sequence>
-					<action>Greet</action>
-					<action>Dialogue-Communication</action>
+					<action-type>
+						<action>Greet</action>
+						<action>Dialogue-Communication</action>
+					</action-type>
 				</action-sequence>
 			</case>
 			<case>
@@ -18,8 +20,10 @@
 					<device>Smart-Camera</device>
 				</condition>
 				<action-sequence>
-					<action>Greet</action>
-					<action>Display-Video</action>
+					<action-type>
+						<action>Greet</action>
+						<action>Display-Video</action>
+					</action-type>
 				</action-sequence>
 			</case>
 			<case>
@@ -27,8 +31,10 @@
 					<device>Smart-Speaker</device>
 				</condition>
 				<action-sequence>
-					<action>Greet</action>
-					<action>Play-Music-Preferences</action>
+					<action-type>
+						<action>Greet</action>
+						<action>Play-Music-Preferences</action>
+					</action-type>
 				</action-sequence>
 			</case>
 			<case>
@@ -36,8 +42,10 @@
 					<device>Smart-Wheelchair</device>
 				</condition>
 				<action-sequence>
-					<action>Greet</action>
-					<action>Dialogue-Communication</action>
+					<action-type>
+						<action>Greet</action>
+						<action>Dialogue-Communication</action>
+					</action-type>
 				</action-sequence>
 			</case>
 		</rule>
@@ -86,8 +94,10 @@
 				</condition>
 				<!--Robot guide on locations-->
 				<action-sequence>
-					<action>Greet</action>
-					<action>Start-Moving-To-The-Location</action>
+					<action-type>
+						<action>Greet</action>
+						<action>Start-Moving-To-The-Location</action>
+					</action-type>
 				</action-sequence>
 			</case>
 			<case>
@@ -96,9 +106,11 @@
 				</condition>
 				<!--Camera guide on capturing photo or video-->
 				<action-sequence>
-					<action>Greet</action>
-					<action>Alert-User-To-Maintain-Distance</action>
-					<action>Capture-Photo</action>
+					<action-type>
+						<action>Greet</action>
+						<action>Alert-User-To-Maintain-Distance</action>
+						<action>Capture-Photo</action>
+					</action-type>
 				</action-sequence>
 			</case>
 			<case>
@@ -107,9 +119,11 @@
 				</condition>
 				<!--Speaker guide on vulnerable music-->
 				<action-sequence>
-					<action>Greet</action>
-					<action>Alert-User-On-Vulnerable-Music</action>
-					<action>Play-Music</action>
+					<action-type>
+						<action>Greet</action>
+						<action>Alert-User-On-Vulnerable-Music</action>
+						<action>Play-Music</action>
+					</action-type>
 				</action-sequence>
 			</case>
 			<case>
@@ -118,8 +132,10 @@
 				</condition>
 				<!--Wheelchair guide on locations-->
 				<action-sequence>
-					<action>Greet</action>
-					<action>Start-Moving-To-The-Location</action>
+					<action-type>
+						<action>Greet</action>
+						<action>Start-Moving-To-The-Location</action>
+					</action-type>
 				</action-sequence>
 			</case>
 		</rule>
@@ -131,8 +147,10 @@
 					<device>Smart-Robot</device>
 				</condition>
 				<action-sequence>
-					<action>Scan-Dirt-On-Floor</action>
-					<action>Alert-On-Waste</action>
+					<action-type>
+						<action>Scan-Dirt-On-Floor</action>
+						<action>Alert-On-Waste</action>
+					</action-type>
 				</action-sequence>
 			</case>
 			<case>
@@ -140,9 +158,11 @@
 					<device>Smart-Camera</device>
 				</condition>
 				<action-sequence>
-					<action>High-Focus</action>
-					<action>Switch-Off-Flash-Light</action>
-					<action>Stream-Video</action>
+					<action-type>
+						<action>High-Focus</action>
+						<action>Switch-Off-Flash-Light</action>
+						<action>Stream-Video</action>
+					</action-type>
 				</action-sequence>	
 			</case>
 			<case>
@@ -150,8 +170,10 @@
 					<device>Smart-Speaker</device>
 				</condition>
 				<action-sequence>
-					<action>Low-Volume</action>
-					<action>Play-Music</action>
+					<action-type>
+						<action>Low-Volume</action>
+						<action>Play-Music</action>
+					</action-type>
 				</action-sequence>	
 			</case>
 			<case>
@@ -159,8 +181,10 @@
 					<device>Smart-Wheelchair</device>
 				</condition>
 				<action-sequence>
-					<action>Detect-User's-Weight</action>
-					<action>Alert-On-Weight-Gain</action>
+					<action-type>
+						<action>Detect-User's-Weight</action>
+						<action>Alert-On-Weight-Gain</action>
+					</action-type>
 				</action-sequence>
 			</case>
 		</rule>
@@ -290,8 +314,10 @@
 					<device>Smart-Camera</device>
 				</condition>
 				<action-choice>
-					<action>Store-Snapped-Photo-Under-Each-User-ID</action>
-					<action>Store-Streamed-Video-Under-Each-User-ID</action>
+					<action-type>
+						<action>Store-Snapped-Photo-Under-Each-User-ID</action>
+						<action>Store-Streamed-Video-Under-Each-User-ID</action>
+					</action-type>
 				</action-choice>
 			</case>
 			<case>
@@ -306,9 +332,9 @@
 				<condition>
 					<device>Smart-Wheelchair</device>
 				</condition>
-				<action>
-					<action-type>Store-Locations-Under-Each-User-ID</action-type>
-				</action>
+				<action-type>
+					<action>Store-Locations-Under-Each-User-ID</action>
+				</action-type>
 			</case>
 		</rule>
 		<rule>
